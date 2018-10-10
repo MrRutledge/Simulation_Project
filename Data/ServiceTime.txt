@@ -1,0 +1,7 @@
+Two Parameter Exponential Distribution Results								Return to Summary
+Descriptive Statistics								
+Count	Mean	StDev	Median	Min	Max	Skew	Kurt	
+150	0.387	0.386	0.283	0.0333	2.417	2.311	6.980	
+Distribution Results								
+Location	Shape	Scale	Threshold	Log-Likelihood	AD	p Value	LRT	AIC
+		0.354	0.0333	5.722	0.750	0.209	0.000	-7.443
