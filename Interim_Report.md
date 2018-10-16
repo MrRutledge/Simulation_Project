@@ -335,3 +335,4 @@ State, T. P. (2017). Lesson 7: Confidence intervals. Retrieved January 18, 2017,
 
 Technologies, M. (2004). Distribution fitting - using goodness of fit tests. Retrieved January 18, 2017, from Math Wave (EasyFit), http://www.mathwave.com/articles/distribution-fitting-goodness-of-fit.html In-line Citation: (Technologies, 2004)
 
+Thu
