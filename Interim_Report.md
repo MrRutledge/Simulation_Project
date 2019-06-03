@@ -1,6 +1,5 @@
 
-
-                                        ## SIMULATION OF A MULTIPLE SERVER QUEUING SYSTEM USING EXCEL AND ARE  SIMULATION PACKAGE
+## SIMULATION OF A MULTIPLE SERVER QUEUING SYSTEM USING EXCEL AND ARE  SIMULATION PACKAGE
 
 ### Interim Report
 
@@ -128,7 +127,7 @@ The idle time of the server was calculated for all the time the server was not s
 
 **Averages**
 
- ![](d)
+ ![](./images/AveragesFig0.PNG)
 
 Average(ColumnRow:ColumnRow)
 
@@ -136,27 +135,27 @@ E.g. Interarrivals average Average(B4:B153)0.00.51
 
 First calculated to the nearest second then converted it to minutes
 
-E.g. interarrivals in secs 0.00.51∗1440=0.85mins (2dp).
+E.g. interarrivals in secs 0.00.51 ∗ 1440 = 0.85mins (2dp).
 
 **Calculation for average Rates**
 
 $\frac{d}{dx} (-u) = - \frac{du}{dx}$
 
-$Average arrival rate = \frac{NumberofCustomers}{Totalinterrival(mins)} = \frac{150}{125.98}= 1.19\ customers/min$
+Average arrival rate = NumberofCustomersTotalinterrival(mins) = 150125.98= 1.19 customers/min
 
-$Average Service rate = \frac{NumberofCustomers}{TotalServiceTime(mins)} = \frac {150}{55.70}= 2.69\ customers/min$
+Average Service rate = NumberofCustomersTotalServiceTime(mins) = 15055.70= 2.69 customers/min
 
 **Probability of waiting**
 
-$Formula = \frac{Noofcustomerswhowait}{Totalnumbercustomers}\times 100= \frac{115}{150} \times 100= 76.67\% $
+Formula =NoofcustomerswhowaitTotalnumbercustomersX100= 115150X100= 76.67%
 
 **Probability of Idle Server**
 
-$Formula =  \frac{TotalIdletime}{Totaltimeofdatacollection}\times 100= 0.55\%$
+Formula =  TotalIdletimeTotaltimeofdatacollectionX100= 0.55%
 
 **Probability of Server busy**
 
-$Formula = 1 – Probability of Idle Server = 1 - 0.55 = 0.45\%$
+Formula = 1 – Probability of Idle Server = 1 – 0.55 = 0.45%
 
 
 
@@ -168,11 +167,11 @@ Excel Formula = Max(H) = 2.72 minutes
 
 **Histograms for interarrival and Service times.**
 
- ![]()
+ ![](./images/interarrivalkda.PNG)
 
 Figure 1 Interarrival time histogram
 
- ![](d)
+ ![](./images/Servicetimekde.PNG)
 
 Figure 2 Service time histogram
 
@@ -192,11 +191,11 @@ I used the top five ranking for my Interarrival time and service time, the softw
 
 **Interarrival**
 
- ![]()
+ ![](./images/interPDFFig3.PNG)
 
 Figure 3 Log-logistic distribution histogram
 
- ![](M)
+ ![](./images/intercomparisonfi4.PNG)
 
 Figure 4 All top five distribution histogram.
 
@@ -212,11 +211,11 @@ The two-parameter log-logistic where the continuous shape was α 0.99431 and the
 
 **Service times**
 
- ![]()
+ ![](./images/ServPDFFIG5.PNG)
 
 Figure 5 Pearson 6(4P) distribution histogram
 
- ![]()
+ ![](./images/ServeFig6.PNG)
 
 Figure 6 All top five distributions histogram
 
