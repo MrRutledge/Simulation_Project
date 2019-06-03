@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 train.csv
+
 # C extensions
 *.so
 
@@ -99,6 +100,7 @@ venv.bak/
 
 # mkdocs documentation
 /site
+GitNo.pdf
 
 # mypy
 .mypy_cache/
