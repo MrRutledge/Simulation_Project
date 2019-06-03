@@ -139,19 +139,17 @@ E.g. interarrivals in secs 0.00.51 ∗ 1440 = 0.85mins (2dp).
 
 **Calculation for average Rates**
 
-$\frac{d}{dx} (-u) = - \frac{du}{dx}$
+Average arrival rate = NumberofCustomers/Totalinterrival(mins) = 150/125.98= 1.19 customers/min
 
-Average arrival rate = NumberofCustomersTotalinterrival(mins) = 150125.98= 1.19 customers/min
-
-Average Service rate = NumberofCustomersTotalServiceTime(mins) = 15055.70= 2.69 customers/min
+Average Service rate = NumberofCustomers/TotalServiceTime(mins) = 150/55.70= 2.69 customers/min
 
 **Probability of waiting**
 
-Formula =NoofcustomerswhowaitTotalnumbercustomersX100= 115150X100= 76.67%
+Formula =Noofcustomerswhowait/TotalnumbercustomersX100= 115/150X100= 76.67%
 
 **Probability of Idle Server**
 
-Formula =  TotalIdletimeTotaltimeofdatacollectionX100= 0.55%
+Formula =  TotalIdletime/TotaltimeofdatacollectionX100= 0.55%
 
 **Probability of Server busy**
 
@@ -219,19 +217,15 @@ Figure 5 Pearson 6(4P) distribution histogram
 
 Figure 6 All top five distributions histogram
 
-Service time the Pearson 6 (4P) from the Pearson family of distribution was ranked number one by both the K.S test and the Chi square test. It has four parameters as the name suggests two  shape parameters α
-
-# 1
- 1.1278 and α
-# 2
- 7.604 β 2.1086 γ 0.02934.
+Service time the Pearson 6 (4P) from the Pearson family of distribution was ranked number one by both the K.S test and the Chi square test. It has four parameters as the name suggests two  shape parameters α<sub>1</sub>
+ 1.1278 and α<sub>2</sub> 7.604, β 2.1086, γ 0.02934.
 Both of my top ranked distributions fell in the non-negative distribution type which is defined to x≥∞ for the continuous location parameter, when gamma is fixed at 0 the distribution is simplified hence the different distributions with in the same family.
 
 **How it is chosen**
 
 **Goodness of Fit**
 
-Goodness of fit measures the capability of a random sample with a theoretical probability distribution function to see how well the distribution selected fits the data,
+Goodness of fit measures how well a theoretical probability distribution function to see performs on the random sample,
 
 Goodness of fit is normally tested using a number of different tests depending on the data, the distribution fitting software(EasyFit) I used to analyse my data used the three main tests to analyse data which where: Chi Square, Kolmorgorov-Simirnov test and the Anderson Darling test.
 
@@ -281,9 +275,7 @@ Render, B., Stair, R. M., &amp; Hanna, M. E. (2011). _Quantitative analysis for 
 
 Taha, H. A. (2010). _Operations research: An introduction_ (9th ed.). Boston, MA, United States: Prentice Hall. In-line Citation: (Taha, 2010)
 
-Collier, D. A., &amp; Evans, J. R. (2009). _Om_
-
-# 2
+Collier, D. A., &amp; Evans, J. R. (2009). _Om<sub>2</sub>_
  _[With access Code] - 2nd edition_. Boston, MA, United States: Cincinnati, Ohio, U.S.A.: South-Western Pub. In-line Citation: (Collier &amp; Evans, 2009)
 
 Law, A. M., &amp; Kelton, D. W. (2000). _Simulation Modelling and analysis_ (3rd ed.). Boston: McGraw Hill Higher Education. In-line Citation: (Law &amp; Kelton, 2000)
@@ -298,4 +290,3 @@ State, T. P. (2017). Lesson 7: Confidence intervals. Retrieved January 18, 2017,
 
 Technologies, M. (2004). Distribution fitting - using goodness of fit tests. Retrieved January 18, 2017, from Math Wave (EasyFit), http://www.mathwave.com/articles/distribution-fitting-goodness-of-fit.html In-line Citation: (Technologies, 2004)
 
-Thu
