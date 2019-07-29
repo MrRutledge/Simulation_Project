@@ -6,6 +6,7 @@ train.csv
 
 # C extensions
 *.so
+images
 
 # Distribution / packaging
 .Python
